@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import schoolLogo from "../../assets/logo-skolah.png";
+import schoolLogo from "../../assets/logo-sekolah.png";
 
 const Footer = () => {
   return (

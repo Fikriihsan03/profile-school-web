@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import schoolLogo from "../../assets/logo-sekolah.jpg";
+import schoolLogo from "../../assets/logo-sekolah.png";
 
 const Navbar = ({}) => {
   const [isExpanded, toggleExpansion] = useState(false);

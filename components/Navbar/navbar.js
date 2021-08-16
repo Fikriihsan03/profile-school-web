@@ -14,7 +14,7 @@ const Navbar = ({}) => {
       </div>
       <div className="block lg:hidden">
         <button
-          className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400  hover:border-white"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -34,17 +34,17 @@ const Navbar = ({}) => {
       >
         <div className="text-sm lg:flex-grow">
           <Link href="/">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200  mr-4">
               Home
             </a>
           </Link>
           <Link href="/about">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200  mr-4">
               About
             </a>
           </Link>
           <Link href="/contact">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200  mr-4">
               Contact
             </a>
           </Link>

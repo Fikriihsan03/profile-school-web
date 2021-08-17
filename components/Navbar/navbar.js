@@ -10,7 +10,7 @@ const Navbar = ({}) => {
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6 border-b-2 border-fuchsia-600">
       <div className="flex items-center flex-shrink-0  mr-6">
         <Image src={schoolLogo} alt="logo sekolah" width="60" height="60" />
-        <h2 className="ml-5">Sekolah Islam Ulun Nuha</h2>
+        <h2 className="ml-2 md:ml-5">Sekolah Islam Ulun Nuha</h2>
       </div>
       <div className="block lg:hidden">
         <button

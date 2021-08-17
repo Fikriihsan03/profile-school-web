@@ -7,24 +7,24 @@ const Contact = () => {
     <Layout title="Contact">
       <div>
         <h1 className="mx-auto my-0 text-center p-8 w-4/5">
-          silahkan email kami jika anda Memiliki pertanyaan atau saran seputar
-          sekolah ini, kami dengan senang hati menjawab pertanyaan dan
-          mempertimbangkan saran yang anda berikan
+          Silahkan Contact Kami Jika Anda Memiliki Pertanyaan Atau Saran Seputar
+          Sekolah Ini, Kami Dengan Senang Hati Menjawab Pertanyaan Dan
+          Mempertimbangkan Saran Yang Anda Berikan
         </h1>
         <form>
-          <div className="container mx-auto px-4 my-16 flex flex-col space-y-8 md:space-y-6">
+          <div className="container mx-auto  px-4 flex flex-col md:items-center space-y-8 md:space-y-6">
             <input
               type="text"
               placeholder="Nama Anda"
-              className="border-2 border-grey-900 rounded-md md:shadow-md w-3/5 md:w-1/4 md:h-10 p-2 md:p-3 "
+              className="border-2 border-grey-900 rounded-md md:shadow-md w-3/5 md:w-1/4 md:h-10 p-2 md:p-3 md:mr-80 md:ml-4 "
             />
             <input
               type="Email"
               placeholder="Email Anda"
-              className="border-2 border-grey-900 rounded-md md:shadow-md w-3/5 md:w-1/4 md:h-10 p-2 md:p-3"
+              className="border-2 border-grey-900 rounded-md md:shadow-md w-3/5 md:w-1/4 md:h-10 p-2 md:p-3 md:mr-80 md:ml-4"
             />
             <textarea
-              placeholder="pertanyaan atau masukan dari anda sekalian"
+              placeholder="your message"
               className="w-11/12 h-48 border-2 border-grey-900 p-2 rounded md:w-1/2 md:h-48  "
             />
             <input

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import schoolLogo from "../../assets/logo-sekolah.png";
+import schoolLogo from "../../public/assets/logo-sekolah.png";
 
 const Footer = () => {
   return (
-    <div className="pt-20">
+    <div>
       <div className="footer-2 bg-gray-800 pt-6 md:pt-12">
         <div className="container px-4 mx-auto">
           <div className="md:flex md:flex-wrap md:-mx-4 py-6 md:pb-12">

@@ -14,3 +14,45 @@ a {
 * {
   box-sizing: border-box;
 }
+.greetingBackground {
+  background-image: url("https://1.bp.blogspot.com/-S9v4R4N9XhI/YJonC4qNIeI/AAAAAAAAXso/763IszSCjkk6gBTYGK_Jf1RgnIBn1L-EgCLcBGAsYHQ/s2048/vecteezy_green-background_hk1120.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 85vh;
+  /* min-height: 40vh; */
+}
+.blur {
+  color: white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  /* text-align: center; */
+}
+.custom-shape-divider-bottom-1633790451 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633790451 svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 180px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1633790451 .shape-fill {
+  fill: #ffffff;
+}

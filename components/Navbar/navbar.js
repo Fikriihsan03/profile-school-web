@@ -3,11 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import schoolLogo from "../../public/assets/logo-sekolah.png";
 
-const Navbar = ({}) => {
+const Navbar = ({ textColor }) => {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6 border-b-2 border-fuchsia-600">
+    <nav
+      className={`text-${textColor} flex items-center justify-between flex-wrap bg-transparent p-6`}
+    >
       <div className="flex items-center flex-shrink-0  mr-6">
         <Image src={schoolLogo} alt="logo sekolah" width="60" height="60" />
         <h2 className="ml-2 md:ml-5">Sekolah Islam Ulun Nuha</h2>
@@ -48,14 +50,6 @@ const Navbar = ({}) => {
               Contact
             </a>
           </Link>
-        </div>
-        <div>
-          <a
-            href="#"
-            className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-          >
-            Download
-          </a>
         </div>
       </div>
     </nav>

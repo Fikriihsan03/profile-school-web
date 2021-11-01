@@ -9,15 +9,11 @@ const Footer = () => {
         <div className="container px-4 mx-auto">
           <div className="md:flex md:flex-wrap md:-mx-4 py-6 md:pb-12">
             <div className="footer-info lg:w-1/3 md:px-4">
-              <h4 className="text-white text-2xl mb-4">
-                19K users are using FWR blocks and making their life easy.
-              </h4>
-              <p className="text-gray-400">
-                We have carefully crafted the blocks to suit to everyone's need.
-              </p>
+              <h4 className="text-white text-2xl mb-4">deskripsi</h4>
+              <p className="text-gray-400">subdeskripsi</p>
               <div className="mt-4">
                 <button className="bg-facebook py-2 px-4 text-white rounded mt-2 transition-colors duration-300">
-                  <span className="fab fa-facebook-f mr-2"></span> Follow
+                  <span className="fab fa-facebook-f mr-2"></span> Instagram
                 </button>
                 <button className="bg-twitter py-2 px-4 text-white rounded ml-2 mt-2 transition-colors duration-300">
                   <span className="fab fa-twitter mr-2"></span> Follow
@@ -30,69 +26,32 @@ const Footer = () => {
               <div className="sm:flex">
                 <div className="sm:flex-1">
                   <h6 className="text-base font-medium text-white uppercase mb-2">
-                    About
+                    school address
                   </h6>
                   <div>
                     <a
-                      href="#"
+                      href="https://goo.gl/maps/BwZK7nkj9EaPTdcM9"
                       className="text-gray-400 py-1 block hover:underline"
+                      target="_blank"
+                      rel="noreferrer"
                     >
-                      Company
+                      SMA
                     </a>
                     <a
-                      href="#"
+                      href="https://goo.gl/maps/ayqhbLo5ch5y7sD78"
                       className="text-gray-400 py-1 block hover:underline"
+                      target="_blank"
+                      rel="noreferrer"
                     >
-                      Culture
+                      SMP
                     </a>
                     <a
-                      href="#"
+                      href="https://goo.gl/maps/L6qRnqZ9z2FV5xFN6"
                       className="text-gray-400 py-1 block hover:underline"
+                      target="_blank"
+                      rel="noreferrer"
                     >
-                      Team
-                    </a>
-                    <a
-                      href="#"
-                      className="text-gray-400 py-1 block hover:underline"
-                    >
-                      Careers
-                    </a>
-                  </div>
-                </div>
-                <div className="sm:flex-1 mt-4 sm:mt-0">
-                  <h6 className="text-base font-medium text-white uppercase mb-2">
-                    What we offer
-                  </h6>
-                  <div>
-                    <a
-                      href="#"
-                      className="text-gray-400 py-1 block hover:underline"
-                    >
-                      Blocks
-                    </a>
-                    <a
-                      href="#"
-                      className="text-gray-400 py-1 block hover:underline"
-                    >
-                      Resources
-                    </a>
-                    <a
-                      href="#"
-                      className="text-gray-400 py-1 block hover:underline"
-                    >
-                      Tools
-                    </a>
-                    <a
-                      href="#"
-                      className="text-gray-400 py-1 block hover:underline"
-                    >
-                      Tutorials
-                    </a>
-                    <a
-                      href="#"
-                      className="text-gray-400 py-1 block hover:underline"
-                    >
-                      Freebies
+                      SD
                     </a>
                   </div>
                 </div>
@@ -115,22 +74,8 @@ const Footer = () => {
             <div className="md:flex md:-mx-4 md:items-center">
               <div className="md:flex-1 md:px-4 text-center md:text-left">
                 <p className="text-white">
-                  &copy; <strong>FWR</strong>
+                  &copy; <strong>Yayasan Minhajus Sunnah</strong>
                 </p>
-              </div>
-              <div className="md:flex-1 md:px-4 text-center md:text-right">
-                <a
-                  href="#"
-                  className="py-2 px-4 text-white inline-block hover:underline"
-                >
-                  Terms of Service
-                </a>
-                <a
-                  href="#"
-                  className="py-2 px-4 text-white inline-block hover:underline"
-                >
-                  Privacy Policy
-                </a>
               </div>
             </div>
           </div>

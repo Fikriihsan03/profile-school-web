@@ -5,7 +5,8 @@ import Navbar from "../components/Navbar/navbar";
 const Contact = () => {
   return (
     <Layout title="Contact">
-      <div>
+      <Navbar textColor="black" />
+      <div className="mb-8">
         <h1 className="mx-auto my-0 text-center p-8 w-4/5">
           Silahkan Contact Kami Jika Anda Memiliki Pertanyaan Atau Saran Seputar
           Sekolah Ini, Kami Dengan Senang Hati Menjawab Pertanyaan Dan
@@ -30,7 +31,7 @@ const Contact = () => {
             <input
               type="submit"
               value="submit"
-              className="transition duration-500 ease-in-out bg-green-600  transform hover:-translate-y-1 hover:scale-110 text-white text-center border-2 border-grey-900 rounded-md w-1/4 p-2    md:w-24 md:h-10 "
+              className="transition duration-500 ease-in-out bg-green-600  transform hover:-translate-y-1 hover:scale-110 text-white text-center border-2 border-grey-900 rounded-md  w-1/4 p-2 md:w-24 md:h-10 "
             />
           </div>
         </form>

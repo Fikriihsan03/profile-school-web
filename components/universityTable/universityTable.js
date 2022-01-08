@@ -4,7 +4,7 @@ const UniversityTable = () => {
   return (
     <div className="mb-10 university-table-wrapper ">
       <h2 className="text-center text-4xl text-white font-sans pt-16">
-        lulusan SMA ulun nuha diterima di universitas berikut
+        Lulusan SMA Ulun Nuha diterima di universitas berikut
       </h2>
       {/* <div className="mr-6"> */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-x-32 p-16">
